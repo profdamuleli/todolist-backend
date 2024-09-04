@@ -27,3 +27,13 @@ This is a simple to-do list web application built with ReactJS for the frontend,
    ```bash
    git clone https://github.com/your_username/your_repository_name.git
    cd your_repository_name/spring-boot-project
+
+2. Update the PostgreSQL configuration in `src/main/resources/application.properties`:
+   ```bash
+   spring.datasource.url=jdbc:postgresql://localhost:5432/todolist
+   spring.datasource.username=your_username
+   spring.datasource.password=your_password
+
+3. Run the Spring Boot application:
+   ```bash
+   mvn spring-boot:run
